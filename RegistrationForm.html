@@ -1,0 +1,64 @@
+<!Doctype Html>
+<Html>
+    <Head>
+        <Title>
+            Create a Registration form
+        </Title>
+    </Head>
+    <Body>
+        <br>
+
+        <form style="border:black; border-width:1px;
+            border-style:solid;width:50%; margin: 0 auto;width:700px;">
+            <div style="margin-left: 10px;font-family:    Arial, Helvetica, sans-serif;">
+                
+                <label> First Name :</label>
+                <input type="text" name="firstname" size="15"/> <br>
+                <label> Last Name: </label>
+                <input type="text" name="lastname" size="25"/> <br>
+                <label> School: </label>
+                <input type="text" name="lastname" size="35"/> <br><br>
+                We must have a correct email address to send uyou the newsletter:<br>
+                <label> Email: </label>
+                <input type="email" name="email" size="35"/> <br> <br>
+
+                <label>
+                    How did you hear about us from?
+                </label><br>
+                <input type="radio" name="ap"/> Here on the Web
+                <input type="radio" name="ap"/> In a magazine
+                <input type="radio" name="ap"/> Newspapers story
+                <input type="radio" name="ap"/> Other
+                <br><br>
+                
+                <label>
+                    Would you care to be on our regular mailing list?
+                </label>
+                <br>
+                <input type="checkbox" name="mail"> Yes, I love junk mail <br>
+                <br>
+                
+                <label>
+                    Which game do you like to play?
+                </label><br>
+                <select>
+                    <option value="Cricket">Cricket</option>
+                    <option value="Football">Football</option>
+                    <option value="Hockey">Hockey</option>
+                    <option value="Chess">Chess</option>
+                    <option value="Tennis">Tennis</option>
+                </select>
+                <br>
+                (Give option like Cricket,Football,Hockey,Chess and Tennis. And only 2 options <br>
+                should be seen on screen.)<br><br>
+                Enter comments about this Website.
+                <br>
+                <textarea cols="30" rows="3" value="text">
+                </textarea>
+                
+                <input type="submit"  value="Submit" style="width: 100px">
+                <input type="reset" value="Reset" style="width: 100px">
+            </div>
+        </form>
+    </Body>
+</Html>
